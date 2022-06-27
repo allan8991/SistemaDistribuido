@@ -1,0 +1,26 @@
+
+-Autor:
+    allan josé amaral ribeiro
+
+-Data do termino do projeto:
+    07/02/2022
+
+- Horário que foi terminado o projeto:
+    02:05
+
+- Informaçôes gerais:
+    Este projeto foi criado com objetivo de que haja troca de mensagens entre dois processos utilizando para isso o protocolo MQTT e o broker 
+    Mosquitto.
+
+- Funcionamento:
+    Foi criado dois processos que foram denominados respectivamentes de processo1 e processo2. Aonde processo2 tem que exibir a mensagem 
+    da umidade e enviar a temperatura para o processo1. Já o processo1 tem exibir a mensagem da tempetura e enviar a umidade para
+    o processo2. Foi usando para isso um broker Mosquito que deve ser rodado na sua máquina local.
+
+- Como rodar o programa:
+    1) ter na sua máquina local instalado pip3, python3 e broker Mosquitto ;
+    2) ligar o broker Mosquitto para isso só abrir o cmd e copiar a caminho aonde foi instalado seu broker Mosquitto e digite o
+       seguinte comando no terminal do windows: mosquitto -v;
+    3) abrir mais dois cmds e rodar os dois programas que foram feitos na linguagem python, onde os nomes dos arquivos são repectivamentes
+    processo1.py e processo2.py;
+
